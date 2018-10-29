@@ -14,7 +14,7 @@ public class BookSellerAgent extends Agent {
     protected void setup() {
         catalogue = new Hashtable();
         Object[] args = getArguments();
-        String[] books = "";
+        String books = "";
         if (args != null && args.length > 0) {
             System.out.println("Hello! Seller-agent "+getAID().getName()+" is ready.");
             System.out.println("Books:");
